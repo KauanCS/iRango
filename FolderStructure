@@ -1,0 +1,54 @@
+- Backend <- Clean code based architecture
+- Frontend <- React based projects
+  - Usuario <- Mobile (required) / web (optional)
+  - Admin <- Web (required)
+  - Loja <- Mobile (required)
+  - Docs (required)
+project folder structure (ESLint AirBnB required):
+You can use Styled components, your any styling framework that you want.
+- __tests__
+- __mocks__
+- src
+  - App.js
+  - Resources
+    - Images
+  - Pages
+    - Home
+      - Home.layout.js
+      - Home.native.js
+      - Home.styles.js
+      - index.js
+  - Components
+    - Toolbar
+      - index.js
+      - Toolbar.native.js
+      - Toolbar.layout.js
+      - Toolbar.styles.js
+  - Utils
+  - Store
+    - Redux
+      - Reducers
+        - User.js
+      - Actions
+        - User.js
+    - AsyncStorage
+      - Consts.js
+      - index.js
+    - RealmDb
+      - Contexts
+        - Users.js <- Class
+      - Schemas
+        - Users.js
+      - index.js
+    - index.js <- Configuring Redux store
+  - API
+    - Config.js
+    - Resources
+      - Users.js <- Resource class, like getUser, getUsers, etc..
+    - WebSocket
+      - Events
+        - User.js
+      - Config.js
+      - index.js
+    - index.js <- Request and response interceptors, general axios config
+- index.js
