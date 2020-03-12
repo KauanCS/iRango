@@ -3,10 +3,6 @@
 ## An "iFoodish" React.JS + .netCore project.
 
 
-# Roadmap
-
-- [x] Update to .netCore 3.0 
-
 # Instructions
 To install the dependencies of the front-end side, just enter the folder and type in the terminal:
 - ```npm install```
